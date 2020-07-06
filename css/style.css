@@ -1,0 +1,216 @@
+body{
+    background-color: #ffff;
+    color:blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container{
+    margin: auto;
+    width: 80%;
+    overflow: hidden;
+}
+
+#main-header{
+    background-color: white;
+    color: blue;
+    
+}
+.hf{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    float: right;
+    
+}
+h1{
+    font-family: fantasy;
+}
+
+#navbar{
+background-color: blue;
+color: white;
+} 
+
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+
+#navbar li{
+    display: inline;
+    position: relative;
+}
+
+#navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+    text-align: right;
+}
+#navbar a:hover{
+    color: #000;
+}
+
+#shop h1{
+    color: gray;
+    padding-top: 2em;
+    margin: auto;
+    font-family: cursive;
+    font-weight: bold;
+    
+}
+#shop{
+    
+    height: 50px;
+    padding: 20px;
+    text-align: center;
+
+}
+.features{
+    background: white;
+    color: gray;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    font-weight: 400;
+}
+
+.features figure{
+    margin: auto;
+    text-align: center;
+    width: 200px;
+    padding-right: 20px;
+    
+}
+.features figure img{
+    width: 300px;
+    height: 200px;
+    padding: 0%;
+    margin: auto;
+   
+}
+.features a{
+    text-decoration: none;
+    color: gray;
+}
+figcaption{
+    color: black;
+    font-weight: bold;
+}
+
+section{
+    
+    background-color: #ffff;
+    color: black;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+}
+section ul li{
+    display: grid;
+    padding: 0;
+    margin: 0;
+
+}
+h2 p{
+    text-align: center;
+    font-family: cursive;
+    color: gray;
+    
+}
+
+.block{
+
+    color: gray;
+    float: left;
+    width: 33.3%;
+    box-sizing: border-box;
+    padding: 10px;
+    
+}
+.block ul{
+    list-style: none;
+}
+
+.block h3{
+    color: blue;
+}
+
+#main-footer{
+    background-color: rgb(235, 226, 226);
+    color: blue;
+    text-align: center;
+    width: 100%;
+}
+hr{
+    border-bottom: 1px solid gray;
+}
+.my-form label{
+    display: block;
+    
+}
+.my-form-h1{
+    text-align: center;
+    font-family: cursive;
+    color: gray;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+	width: 80%;
+	padding: 8px;
+	margin: 5px 0 22px 0;
+	display: block;
+	border: 1px solid gray;
+    background: #f1f1f1;  
+    
+}
+textarea {
+	width: 80%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	display: inline-block;
+	border: 1px solid gray;
+    background: #f1f1f1;
+    
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+	background: #f1f1f1;
+	outline: none;
+}
+
+button {
+	background-color: red;
+	color: white;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border: 2px solid gray;
+	cursor: pointer;
+	width: 20%;
+    opacity: 0.9;
+
+}
+
+button:hover {
+	color: gray;
+}
+
+.form-group {
+    padding: 16px;
+    
+}
+
+.my-form {
+	background-color: darkblue;
+	color: gray;
+	margin: auto;
+	border: 2px solid gray;
+    width: 40%;
+}

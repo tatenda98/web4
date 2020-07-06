@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHECK ENQUIRY</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/common.js"></script>
+
+</head>
+<body onLoad="document.enquiries.userid.focus();">
+    <header id="main-header">
+        <div class="container">
+            <h1 class="hf">HF</h1>
+            <h1> CHECK ENQUIRY</h1>
+        </div>
+    </header>
+
+        <nav id="navbar">
+            <div class="container">
+               <ul><li><a href="index.php">Home</a></li>
+                <li><a href="product.php">Products</a></li>
+                <li><a href="services.php">Services</a></li> 
+                <li><a href="enquiries.php">Enquiries</a></li>
+                <li><a href="admin.html">Admin</a></li>
+                </ul>
+            </div>
+        </nav>
+    <h1 class="my-form-h1">Check enquiry</h1>
+    
+</head>
+<body>
+    
+
+    <form class="my-form" action="checkenq.php" method="POST"> 
+        <label> NAME : </label>
+         <input type="text" name="name1" id="" required>
+         <br>
+         <br>
+         <label for=""> EMAIL : </label>
+          <input type="email" name="email" id="" required>
+          <br>
+          <br>
+         <label for=""> NUMBER : </label>
+          <input type="number" name="number1" id="" required>
+          <br>
+          <br>
+          <hr>
+          <input type="submit" name="submit" value="Check" style="background-color:#00908E">
+</body>
+</html>
